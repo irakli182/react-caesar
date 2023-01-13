@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+
+.caesardiv {
+    display: flex;
+}
+
+.cipherdiv {
+    display: flex;
+    color: red;
+}
+
+.qwe {
+    color: red;
+}
+
+.title {
+    display: flex;
+    gap: 6rem;
+    font-size: 7rem;
+    margin-top: 1.5rem;
+    margin-left: 3rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.justice {
+    width: 35rem;
+    position: absolute;
+    margin-left: 60rem;
+}
+
+.text {
+    width: 45rem;
+    font-size: 2rem;
+    margin-left: 3rem;
+    font-family: sans-serif;
+    color: rgb(70, 70, 70);
+}
+
+
+.explaindiv {
+    height: 1000px;
+    width: 1890px;
+}
+
+.explanation {
+    text-align: center;
+    font-size: 6rem;
+    margin-top: 40rem;
+    margin-bottom: 10rem;
+    color: red;
+}
+
+.zxc {
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    margin-left: 73.5rem;
+    margin-top: 28rem;
+    position: absolute;
+    z-index: 1;
+    color: gray;
+    width: 100%;
+}
+
+.cvb {
+    font-size: 3rem;
+    margin-left: 3rem;
+}
+
+.example {
+    position: absolute;
+    margin-left: 60rem;
+    width: 50rem;
+    top: 110rem;
+}
+
+.explaindiv ul {
+    font-size: 2rem;
+    margin-top: 8rem;
+    list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.explaindiv ul li {
+    padding-bottom: 15px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2rem;
+    
+}
+
+.morediv {
+    width: 1890px;
+    font-size: 6rem;
+    justify-content: center;
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+
+.poi {
+    font-size: 5rem;
+    margin-left: 2.5rem;
+    color: rgb(255, 0, 0);
+    padding: 0;
+    margin: 0;
+}
+
+.linkdiv {
+    height: 350px;
+    width: 1890px;
+}
+
+.linkdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.link {
+    margin-top: 6rem;
+    padding-top: 1.5rem;
+    height: 5rem;
+    background-image: linear-gradient(90deg, #A71D31, #c5646e);
+    font-size: 3rem;
+    width: 12.5rem;
+    padding-left: 2rem;
+    border-radius: 60px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.link:hover {
+    scale: 1.1;
+    transition: 0.3s;
+}
+
+
+@media screen and (max-width: 1050px) {
+
+
+        .justice {
+            display: none;
+        }
+
+        .example {
+            display: none;
+        }
+
+        .title {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        .textdiv {
+            display: flex;
+            width: 100vw;
+            justify-content: center;
+            
+        }
+
+        .textdiv p {
+            margin: 0;
+            text-align: center;
+            width: 20rem;
+        }
+
+        .caesardiv {
+            justify-content: center;
+        }
+
+        .caesardiv p {
+            height: 0px;
+        }
+
+        .cipherdiv {
+            justify-content: center;
+            
+        }
+
+        .cipherdiv p {
+            margin-top: 2rem;
+        }
+
+        .title p {
+            font-size: 5rem;
+        }
+
+
+        .explaindiv {
+            width: auto;
+        }
+
+        .explanation{
+            font-size: 3rem;
+        }
+
+        .morediv {
+            width: auto;
+        }
+
+        .linkdiv {
+            width: auto;
+        }
+
+        .zxc {
+            display: none;
+        }
+        
+        .explanation {
+            margin-bottom: 4rem;
+            margin-top: 15rem;
+            font-size: 5rem;
+            
+        }
+
+        .cvb {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            font-size: 3rem;
+        }
+
+        .explaindiv ul li {
+            text-align: center;
+            padding: 0;
+            margin-left: 0;
+            margin-top: 3rem;
+            width: 15rem;
+            
+        }
+
+        .ul {
+            display: flex;
+            justify-content:  center;
+        }
+
+        .explaindiv ul {
+            padding: 0;
+            margin-top: 5rem;
+
+        }
+
+        ul li::before {
+            display: none;
+            margin-top: 0;
+            padding: 0;
+          }
+
+        .morediv {
+            margin-top: 15rem;
+            
+        }
+
+        .poi {
+            text-align: center;
+            padding-bottom: 20px;
+        }
+
+        .linkdiv {
+            height: 250px;
+        }
+
+
+
+
+}
